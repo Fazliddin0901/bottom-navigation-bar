@@ -1,26 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <title></title>
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <div class="container">
-      <a href="#"><i class="fa-solid fa-house-chimney"></i></a>
-      <a href="#"> <i class="fa-solid fa-user"></i></a>
-      <a href="#"><i class="fa-solid fa-comment"></i></a>
-      <a href="#"><i class="fa-solid fa-camera"></i></a>
-      <a href="#"> <i class="fa-solid fa-gear"></i></a>
+    <div class="phone">
+      <input type="radio" name="radio" id="input_1" checked="checked" />
+      <input type="radio" name="radio" id="input_2" />
+      <input type="radio" name="radio" id="input_3" />
+      <input type="radio" name="radio" id="input_4" />
+      <input type="radio" name="radio" id="input_5" />
+
+      <label for="input_1"
+        ><i class="fa fa-home"></i><span class="more">Home</span></label
+      >
+      <label for="input_2"
+        ><i class="fa fa-user"></i><span class="home">Profile</span></label
+      >
+
+      <label for="input_3"
+        ><i class="fa fa-comment"></i
+        ><span class="support">Massage</span></label
+      >
+      <label for="input_4"
+        ><i class="fa fa-camera"></i>
+        <span class="support1">Photos</span></label
+      >
+
+      <label for="input_5"
+        ><i class="fa fa-gear"></i>
+        <span class="support2">Settings</span></label
+      >
+      <div class="circle"></div>
+
+      <div class="phone_content">
+        <div class="phone_bottom">
+          <span class="indicator"></span>
+        </div>
+      </div>
     </div>
   </body>
 </html>
